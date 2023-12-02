@@ -2,5 +2,4 @@
 import add_0
 a = 1
 b = 2
-if __name__  = "__main__":
-    print("{} + {} = {c}".format(a, b, c = add(a, b)))
+print("{} + {} = {c}".format(a, b, c = add_0.add(a, b)))
