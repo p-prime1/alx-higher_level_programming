@@ -5,7 +5,7 @@ if __name__ == "__main__":
         print("{}".format(0))
     else:
         j = 1
-        i = 1
+        i = 0
         while j != len(argv):
             i += int(argv[j])
             j += 1
