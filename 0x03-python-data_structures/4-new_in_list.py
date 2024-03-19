@@ -5,7 +5,7 @@ def new_in_list(my_list, idx, element):
     new_list = my_list[:]
     if (idx > (len(new_list) - 1) or idx < 0):
         return (NONE)
-    j = 0;
+    j = 0
     for i in my_list:
         if j == idx:
             break
