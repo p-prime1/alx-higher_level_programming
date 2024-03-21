@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-import copy
 
 
 def search_replace(my_list, search, replace):
