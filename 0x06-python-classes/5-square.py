@@ -39,7 +39,7 @@ class Square:
         value = self.area()
         size = self.__size
         if size == 0:
-            print(" ")
+            print("")
         else:
             for i in range(size):
                 print("#" * size)
