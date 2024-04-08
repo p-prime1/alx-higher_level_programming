@@ -34,6 +34,7 @@ class Square:
         """Returns the area"""
         value = self.__size
         return value ** 2
+
     def my_print(self):
         value = self.area()
         size = self.__size
@@ -41,4 +42,4 @@ class Square:
             print(" ")
         else:
             for i in range(size):
-                    print("#" * size)
+                print("#" * size)
