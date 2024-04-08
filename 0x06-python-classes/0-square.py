@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""Defines a Squre"""
+
 class Square:
-    """Returns the square of a number"""
+    """Represents a Squre"""
     pass
+
