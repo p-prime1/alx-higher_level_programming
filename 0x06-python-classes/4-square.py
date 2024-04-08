@@ -6,7 +6,7 @@
 class Square:
     """Rep Square"""
 
-    def __init__(self, size):
+    def __init__(self, size=0):
         """Initializes the fields
         Args:
             size (int): Size of square
