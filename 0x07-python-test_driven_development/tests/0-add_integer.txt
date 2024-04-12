@@ -1,0 +1,74 @@
+
+``0-add_integer.py``
+==================
+
+==================
+``add_integer(...)`` Returns the sum of two integers.
+
+Test cases for the function add(a, b=80)
+::
+
+    	>>> add_integer = __import__('0-add_integer').add_integer
+    	>>> add_integer(1, 2)
+	3
+
+::
+	>>> add_integer(1, -3)
+	-2
+
+If only one arguments is passed
+===============================
+
+::
+
+	>>> add_integer(1)
+	99
+
+If either argument is not an int
+=================================
+
+::
+
+	>>> add_integer(1, "Hello")
+	Traceback (most recent call last):
+	TypeError: b must be an integer
+
+::
+
+	>>> add_integer("Hi", 2)
+	Traceback (most recent call last):
+	TypeError: a must be an integer
+
+::
+
+
+	>>> add_integer(None, "HI")
+	Traceback (most recent call last):
+	TypeError: a must be an integer
+
+Float are comverted to integrs before computing
+=======================================
+
+::
+	>>> add_integer(3.8, 4.999)
+	7
+
+::
+
+If either argument is a float or an int
+=======================================
+
+::
+
+	>>> add_integer(1.3, 2)
+	3
+
+::
+
+	>>> add_integer(2, 1.3)
+	3
+
+::
+
+	>>> add_integer(1.5, 1.5)
+	2
