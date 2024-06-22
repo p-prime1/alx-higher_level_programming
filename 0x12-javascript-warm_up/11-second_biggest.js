@@ -2,10 +2,8 @@
 const args = process.argv.slice(2);
 function largest (args) {
   let n = args[0];
-  for (let i = 0; i < args.length; i++) {
-    if (n > args[i]) {
-      continue;
-    } else {
+  for (let i = 1; i < args.length; i++) {
+    if (args[i] > n) {
       n = args[i];
     }
   }
