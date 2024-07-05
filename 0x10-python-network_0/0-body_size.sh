@@ -1,2 +1,2 @@
-response=curl -sI $1 | grep -I Content-Length
-echo response
+response=$(curl -sI "$1" | grep -i "Content-Length")
+echo "$response"
