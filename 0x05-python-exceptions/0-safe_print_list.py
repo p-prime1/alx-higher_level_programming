@@ -2,13 +2,13 @@
 def safe_print_list(my_list=[], x=0):
     """Prints x elements in a list"""
     i = 0
-    while (True):
-        try:
-            print(my_list[i], end="" if i <= x else "\n")
+    try:
+        while (i <= x):
+            print(my_list[i], end='')
             i += 1
-            if (i == x):
-                break
-        except IndexError:
-            print("\n")
-            break
-    return (i)
+        print("\n")
+    except IndexError:
+        pass
+    except TypeError:
+        pass
+
