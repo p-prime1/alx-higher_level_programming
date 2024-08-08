@@ -43,6 +43,7 @@ class Rectangle(BaseGeometry):
         """Returns a formal String"""
         return (f"[Rectangle] {self.__width}/{self.__height}")
 
+
 """Defines a square class"""
 
 
