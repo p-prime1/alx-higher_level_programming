@@ -23,7 +23,8 @@ class BaseGeometry:
 class Rectangle(BaseGeometry):
     """Intializes the class"""
     def __init__(self, width, height):
-        """Initializes the parent class and validates for int using the integer
+        """Initializes the parent class and validates fo
+        r int using the integer
         using the integer_validator func from parent class
         Arguments:
             width (int): Width of Rectangle
@@ -38,8 +39,6 @@ class Rectangle(BaseGeometry):
         """Returns the area"""
         return (self.__width * self.__height)
 
-
     def __str__(self):
         """Returns a formal String"""
         return (f"[Rectangle] {self.__width}/{self.__height}")
-
