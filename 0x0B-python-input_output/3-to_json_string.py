@@ -2,8 +2,7 @@
 import json
 
 
-""" This module provides a funtion that returns a json representation of an
-object """
+"""This module provides a funtion that returns a json representation of an object"""
 
 
 def to_json_string(my_obj):
