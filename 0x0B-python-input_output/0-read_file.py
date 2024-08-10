@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
 """Function reads from a file"""
+
+
 def read_file(filename=""):
     """Arguments:
         filename (file): Name of file
