@@ -6,11 +6,11 @@
 import json
 
 
-def save_to_json_file(my_obj, filename):
+def save_to_json_file(my_obj=None, filename=None):
     """Converts a Python object to a JSON string and writes it to a file
     using the mode.
 
-    The function Creates the file if it doesnt exit and overwrites if if
+    The function Creates the file if it doesnt exit and overwrites it if
     it does.
 
     Args:
