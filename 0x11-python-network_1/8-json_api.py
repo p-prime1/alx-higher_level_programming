@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Script sends a post request with a letter as parameter"""
+"""Script takes in an argument form command line and 
+    sends a post request with a letter with the argument as parameter"""
 
 
 if __name__ == "__main__":
@@ -8,9 +9,8 @@ if __name__ == "__main__":
 
     data = {}
     try:
-    if sys.argv[1]:
         data['q'] = sys.argv[1]
-    else:
+    except IndexError:
         data['q'] = ""
 
     r = requests.post("http://0.0.0.0:5000/search_user", data)
