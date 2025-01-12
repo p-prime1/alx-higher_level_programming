@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""Script fetches a url and returns info of the page"""
 
 
 if __name__ == "__main__":
