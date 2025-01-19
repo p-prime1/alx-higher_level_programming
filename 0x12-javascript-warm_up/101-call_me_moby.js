@@ -4,6 +4,6 @@ exports.callMeMoby = function (num, newFunc) {
   let i = 0;
   while (i < newNum) {
     newFunc();
-    i+=1
+    i += 1;
   }
 };
