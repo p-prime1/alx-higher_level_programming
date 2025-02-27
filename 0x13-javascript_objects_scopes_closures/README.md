@@ -1,0 +1,1 @@
+Intro into closures, scopes
