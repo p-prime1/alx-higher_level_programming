@@ -7,7 +7,7 @@ request(url, function (error, response, body) {
   if (error) {
     console.error(error);
   }
-  content = JSON.parse(body);
+  const content = JSON.parse(body);
   const users = {};
   let i = 1;
 
@@ -19,4 +19,3 @@ request(url, function (error, response, body) {
   }
   console.log(users);
 });
-
